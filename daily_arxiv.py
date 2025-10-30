@@ -313,7 +313,9 @@ if __name__ == "__main__":
 
     # my keyword
     keywords = dict()
-    keywords["diffusion"] = "ti:\"diffusion\""  + "OR" + "ti:\" diffus\""
+    # keywords["diffusion"] = "ti:\"diffusion\""  + "OR" + "ti:\" diffus\""
+
+    keywords["tokenization"] = "ti:\"tokenization\"" + "OR" + "ti:\" token\""
 
     for topic, keyword in keywords.items():
         print("Keyword: " + topic)
